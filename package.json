@@ -9,7 +9,8 @@
     "lint": "next lint",
     "git:clean": "git branch -D build",
     "git:build": "git subtree split --branch build --prefix=out",
-    "git:deploy": "npm run git:clean && npm run git:build"
+    "git:push": "git push -u origin build",
+    "git:deploy": "npm run git:clean && npm run git:build && npm run git:push"
   },
   "dependencies": {
     "next": "14.2.1",
