@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "git:build": "git subtree split --branch build --prefix=out"
+    "git:clean": "git branch -D build",
+    "git:build": "git subtree split --branch build --prefix=out",
+    "git:deploy": "npm run git:clean && npm run git:build"
   },
   "dependencies": {
     "next": "14.2.1",
