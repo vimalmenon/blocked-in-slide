@@ -31,8 +31,13 @@ const MainDeck = () => {
   return (
     <div ref={deckDivRef} className="reveal" style={{ height: "100vh" }}>
       <div className="slides" >
-        <section>Slide 1</section>
+        <section>
+          Slide 1
+        </section>
         <section>Slide 2</section>
+      </div>
+      <div className="text-base justify-end flex px-4 py-2">
+        Vimal Menon (v0.0.0)
       </div>
     </div>
   )
