@@ -3,6 +3,8 @@
 import { useEffect, useRef } from 'react';
 import Reveal from "reveal.js";
 
+import {Slide1} from "./slides"
+
 
 const MainDeck = () => {
   const deckDivRef = useRef<HTMLDivElement>(null); // reference to deck container div
@@ -31,10 +33,13 @@ const MainDeck = () => {
   return (
     <div ref={deckDivRef} className="reveal" style={{ height: "100vh" }}>
       <div className="slides" >
+        <Slide1 />
         <section>
-          Slide 1
+          Slide 2
+          <section>One</section>
+          <section>Two</section>
+          <section>Three</section>
         </section>
-        <section>Slide 2</section>
       </div>
       <div className="text-base justify-end flex px-4 py-2">
         Vimal Menon (v0.0.0)
