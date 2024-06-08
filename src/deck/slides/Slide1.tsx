@@ -1,7 +1,7 @@
 export const Slide1: React.FC = () => {
   return (
     <section>
-      Slide 1
+      Blocked In - End To End Hiring Application
     </section>
   )
 }
