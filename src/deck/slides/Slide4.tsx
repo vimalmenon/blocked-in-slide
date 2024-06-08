@@ -5,10 +5,10 @@ export const Slide4: React.FC = () => {
   return (
     <section>
       <BlockedIn />
-      <div>Demo</div>
-      <div>Contact US</div>
-      <p>LinkedIn</p>
-      <p>YouTube</p>
+      <div className="text-base subpixel-antialiased">Demo</div>
+      <div className="text-base subpixel-antialiased">Contact US</div>
+      <p className="text-base subpixel-antialiased">LinkedIn</p>
+      <p className="text-base subpixel-antialiased">YouTube</p>
     </section>
   );
 };
