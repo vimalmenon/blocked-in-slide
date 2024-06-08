@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import Reveal from "reveal.js";
 
-import { Slide1, Slide2 } from "./slides"
+import { Slide1, Slide2, Slide3 } from "./slides"
 
 
 const MainDeck = () => {
@@ -35,6 +35,7 @@ const MainDeck = () => {
       <div className="slides" >
         <Slide1 />
         <Slide2 />
+        <Slide3 />
       </div>
       <div className="text-base justify-end flex px-4 py-2">
         Vimal Menon (v0.0.0)
