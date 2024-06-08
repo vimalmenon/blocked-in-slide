@@ -1,9 +1,10 @@
 import React from 'react';
+import { BlockedIn } from "../../common"
 
 export const Slide3: React.FC = () => {
   return (
     <section>
-      Blocked In - End To End Hiring Application
+      <BlockedIn />
     </section>
   );
 };
