@@ -3,7 +3,7 @@ import React from 'react';
 import { useEffect, useRef } from 'react';
 import Reveal from 'reveal.js';
 
-import { Slide1, Slide2, Slide3, Slide4 } from './slides';
+import { Slide1, Slide2, Slide3, Slide4, Slide0 } from './slides';
 
 const MainDeck = () => {
   const deckDivRef = useRef<HTMLDivElement>(null); // reference to deck container div
@@ -31,6 +31,7 @@ const MainDeck = () => {
   return (
     <div ref={deckDivRef} className="reveal" style={{ height: '100vh' }}>
       <div className="slides">
+        <Slide0 />
         <Slide1 />
         <Slide2 />
         <Slide3 />
