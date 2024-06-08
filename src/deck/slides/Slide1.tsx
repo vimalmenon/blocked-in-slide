@@ -1,4 +1,5 @@
-import { BlockedIn } from "../../common"
+import React from 'react';
+import { BlockedIn } from '../../common';
 
 export const Slide1: React.FC = () => {
   return (
@@ -7,8 +8,10 @@ export const Slide1: React.FC = () => {
         <span>
           <BlockedIn />
         </span>
-        <span className="text-yellow-100 text-sm">Application for End To End Hiring Needs</span>
+        <span className="text-yellow-100 text-sm">
+          Application for End To End Hiring Needs
+        </span>
       </div>
     </section>
-  )
-}
+  );
+};

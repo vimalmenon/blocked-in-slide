@@ -1,1 +1,1 @@
-export * from "./BlockedIn.component";
+export * from './BlockedIn.component';
