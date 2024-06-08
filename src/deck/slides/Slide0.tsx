@@ -9,7 +9,7 @@ export const Slide0: React.FC = () => {
           <BlockedIn />
         </span>
         <span className="text-yellow-100 text-sm">
-          Application for End To End Hiring Needs
+          Web3 Application for End To End Hiring Needs
         </span>
       </div>
     </section>
