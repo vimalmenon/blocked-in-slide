@@ -8,7 +8,7 @@ export const Slide0: React.FC = () => {
         <span>
           <BlockedIn />
         </span>
-        <span className="text-yellow-100 text-sm">
+        <span className="text-yellow-100 text-sm" style={{ fontSize: '25px' }}>
           Web3 Application for End To End Hiring Needs
         </span>
       </div>

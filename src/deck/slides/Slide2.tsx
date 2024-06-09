@@ -15,7 +15,7 @@ export const Slide2: React.FC = () => {
         A centralized application for all employee data
       </p>
       <p className="fragment fade-up text-sm">
-        Standardize the hiring process and will help with automation
+        Standardize the hiring process, which will help with the automation
       </p>
       <p className="fragment fade-up text-sm">
         Reduce the cost and time to verify employees&apos;

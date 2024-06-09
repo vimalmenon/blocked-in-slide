@@ -31,7 +31,6 @@ export const Slide3: React.FC = () => {
         </p>
         <p className="fragment fade-up text-sm">Track Employees status</p>
         <p className="fragment fade-up text-sm">IPFS</p>
-        <p className="fragment fade-up text-sm">Education Verification</p>
       </div>
     </section>
   );
