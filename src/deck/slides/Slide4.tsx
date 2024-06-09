@@ -33,27 +33,20 @@ export const Slide4: React.FC = () => {
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Verify of academic history
+                Verify academics history
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Employee appreciation
+                Give value to employee appreciation (Not just a piece of paper)
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Add skills for employee
+                Add skills to employment history
               </li>
-              <li
-                className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
-              >
-                Token&apos;s
-              </li>
-
               <li
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
@@ -65,6 +58,12 @@ export const Slide4: React.FC = () => {
                 style={{ fontSize: '20px' }}
               >
                 Track Employees status
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Token&apos;s
               </li>
               <li
                 className="fragment fade-up text-sm m-5"

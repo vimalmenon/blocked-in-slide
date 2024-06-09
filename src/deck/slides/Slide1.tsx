@@ -51,7 +51,7 @@ export const Slide1: React.FC = () => {
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Prevention data fraud
+                Prevent data fraud
               </li>
             </ul>
           </div>
