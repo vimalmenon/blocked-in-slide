@@ -5,12 +5,12 @@ export const Slide0: React.FC = () => {
   return (
     <section>
       <div className="flex flex-col gap-2">
-        <span>
+        <span className="mb-10">
           <BlockedIn />
         </span>
-        <span className="text-yellow-100 text-sm" style={{ fontSize: '25px' }}>
+        <div className="text-yellow-100 text-sm" style={{ fontSize: '1.3rem' }}>
           Web3 Application for End To End Hiring Needs
-        </span>
+        </div>
       </div>
     </section>
   );
