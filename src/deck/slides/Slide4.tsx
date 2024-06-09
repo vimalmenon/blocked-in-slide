@@ -39,7 +39,7 @@ export const Slide4: React.FC = () => {
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Employee ppreciation
+                Employee appreciation
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
