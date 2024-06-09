@@ -4,33 +4,64 @@ import { BlockedIn } from '../../common';
 export const Slide3: React.FC = () => {
   return (
     <section>
-      <BlockedIn />
-      <div>
-        <div className="text-base subpixel-antialiased">Completed Feature</div>
-        <p className="fragment fade-up text-sm">
-          Register an employer & employee
-        </p>
-        <p className="fragment fade-up text-sm">
-          Employers will be able to hire an employee
-        </p>
-        <p className="fragment fade-up text-sm">
-          The employee will have a complete employment history
-        </p>
-        <p className="fragment fade-up text-sm">Release an employee</p>
-        <p className="fragment fade-up text-sm">Link employee&apos;s</p>
-        <div className="text-base subpixel-antialiased">Future Scope</div>
-        <p className="fragment fade-up text-sm">
-          Robust verification of education history
-        </p>
-        <p className="fragment fade-up text-sm">Appreciate employee</p>
-        <p className="fragment fade-up text-sm">Add skills for employee</p>
-        <p className="fragment fade-up text-sm">Token&apos;s</p>
-        <p className="fragment fade-up text-sm">NFT</p>
-        <p className="fragment fade-up text-sm">
-          Integration with other applications
-        </p>
-        <p className="fragment fade-up text-sm">Track Employees status</p>
-        <p className="fragment fade-up text-sm">IPFS</p>
+      <div className="flex flex-col gap-2">
+        <span className="mb-10">
+          <BlockedIn />
+        </span>
+        <div className="mb-2 text-yellow-100" style={{ fontSize: '25px' }}>
+          Completed Feature
+        </div>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div
+            style={{
+              display: 'flex',
+              width: '700px',
+              flexDirection: 'column',
+              alignItems: 'start',
+              gap: 20,
+            }}
+          >
+            <ul>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Register an employer & employee
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                The employee will have a complete employment history
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Employers will be able to hire an employee
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Release an employee
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Link employee&apos;s
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   );
