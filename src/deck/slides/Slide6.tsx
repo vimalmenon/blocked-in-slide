@@ -24,7 +24,16 @@ export const Slide6: React.FC = () => {
             LinkedIn
           </a>
         </div>
-        <div className="text-base subpixel-antialiased">YouTube</div>
+
+        <div className="text-base subpixel-antialiased">
+          <a
+            href="https://www.youtube.com/@i_am_vimalmenon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
       </div>
     </section>
   );
