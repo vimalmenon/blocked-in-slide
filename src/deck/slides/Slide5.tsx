@@ -9,7 +9,7 @@ export const Slide5: React.FC = () => {
           <BlockedIn />
         </span>
         <div className="mb-2 text-yellow-100" style={{ fontSize: '25px' }}>
-          Future Scope
+          What help I Need?
         </div>
         <div
           style={{
@@ -33,43 +33,19 @@ export const Slide5: React.FC = () => {
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Verify academic history
+                Onboard companies with the ideas
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Give value to employee appreciation (Not just a piece of paper)
+                Sell this product or help expand
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Add skills to employment history
-              </li>
-              <li
-                className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
-              >
-                Integration with other applications
-              </li>
-              <li
-                className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
-              >
-                Token
-              </li>
-              <li
-                className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
-              >
-                NFT
-              </li>
-              <li
-                className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
-              >
-                IPFS
+                Identify revenue model
               </li>
             </ul>
           </div>
