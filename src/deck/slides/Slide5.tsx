@@ -33,19 +33,25 @@ export const Slide5: React.FC = () => {
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
+                Help expand this product with the help of investors or companies
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Sell this product for royalties (Worst case)
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
                 Onboard companies with the ideas
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Sell this product or help expand
-              </li>
-              <li
-                className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
-              >
-                Identify revenue model
+                Identify a revenue model
               </li>
             </ul>
           </div>
