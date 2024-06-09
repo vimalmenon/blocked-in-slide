@@ -8,18 +8,72 @@ export const Slide5: React.FC = () => {
         <span className="mb-10">
           <BlockedIn />
         </span>
-        <div className="text-base subpixel-antialiased">Demo</div>
-        <div className="text-base subpixel-antialiased">Contact US</div>
-        <p className="text-base subpixel-antialiased">
-          <a
-            href="https://www.linkedin.com/in/vimal-menon-72ab931a/"
-            target="_blank"
-            rel="noreferrer"
+        <div className="mb-2 text-yellow-100" style={{ fontSize: '25px' }}>
+          Future Scope
+        </div>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div
+            style={{
+              display: 'flex',
+              width: '700px',
+              flexDirection: 'column',
+              alignItems: 'start',
+              gap: 20,
+            }}
           >
-            LinkedIn
-          </a>
-        </p>
-        <p className="text-base subpixel-antialiased">YouTube</p>
+            <ul>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Verify academic history
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Give value to employee appreciation (Not just a piece of paper)
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Add skills to employment history
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Integration with other applications
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Token
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                NFT
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                IPFS
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   );

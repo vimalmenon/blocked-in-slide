@@ -3,7 +3,15 @@ import React from 'react';
 import { useEffect, useRef } from 'react';
 import Reveal from 'reveal.js';
 
-import { Slide0, Slide1, Slide2, Slide3, Slide4, Slide5 } from './slides';
+import {
+  Slide0,
+  Slide1,
+  Slide2,
+  Slide3,
+  Slide4,
+  Slide5,
+  Slide6,
+} from './slides';
 
 const MainDeck = () => {
   const deckDivRef = useRef<HTMLDivElement>(null); // reference to deck container div
@@ -37,6 +45,7 @@ const MainDeck = () => {
         <Slide3 />
         <Slide4 />
         <Slide5 />
+        <Slide6 />
       </div>
       <div className="text-base justify-end flex px-4 py-2">
         Vimal Menon (v0.0.0)
