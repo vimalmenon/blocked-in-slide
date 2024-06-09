@@ -39,13 +39,13 @@ export const Slide3: React.FC = () => {
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                The employee will have a complete employment history
+                Complete access to employment history for both parties
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Employers will be able to hire an employee
+                Hire an candidate
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
@@ -57,7 +57,7 @@ export const Slide3: React.FC = () => {
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Link employee&apos;s
+                Link duplicate employees
               </li>
             </ul>
           </div>

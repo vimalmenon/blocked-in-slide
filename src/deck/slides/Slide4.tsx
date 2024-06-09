@@ -33,7 +33,7 @@ export const Slide4: React.FC = () => {
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Verify academics history
+                Verify academic history
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
@@ -57,13 +57,7 @@ export const Slide4: React.FC = () => {
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Track Employees status
-              </li>
-              <li
-                className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
-              >
-                Token&apos;s
+                Token
               </li>
               <li
                 className="fragment fade-up text-sm m-5"

@@ -9,7 +9,7 @@ export const Slide2: React.FC = () => {
           <BlockedIn />
         </span>
         <div className="mb-2 text-yellow-100" style={{ fontSize: '25px' }}>
-          Problem application is trying to solve
+          Problems application is trying to solve
         </div>
         <div
           style={{
@@ -58,20 +58,19 @@ export const Slide2: React.FC = () => {
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Prevents malpractices by employees like Moonlighting and many
-                other
+                Prevents malpractices by employees like Moonlighting
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Help employers track employees&apos; status from counter offers
+                Helps employers track counter offers
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
                 style={{ fontSize: '20px' }}
               >
-                Tokenizing Talent
+                Tokenize talents
               </li>
             </ul>
           </div>
