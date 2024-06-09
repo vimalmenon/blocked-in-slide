@@ -31,7 +31,7 @@ export const Slide6: React.FC = () => {
             target="_blank"
             rel="noreferrer"
           >
-            LinkedIn
+            YouTube
           </a>
         </div>
       </div>
