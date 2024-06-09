@@ -22,7 +22,7 @@ export const Slide2: React.FC = () => {
           <div
             style={{
               display: 'flex',
-              width: '500px',
+              width: '700px',
               flexDirection: 'column',
               alignItems: 'start',
               gap: 20,
