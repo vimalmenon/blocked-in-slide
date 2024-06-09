@@ -8,7 +8,7 @@ export const Slide1: React.FC = () => {
         <span className="mb-10">
           <BlockedIn />
         </span>
-        <div className="mb-2 text-yellow-100" style={{ fontSize: '30px' }}>
+        <div className="mb-2 text-yellow-100" style={{ fontSize: '1.8rem' }}>
           Why Blockchain?
         </div>
         <div
@@ -31,25 +31,25 @@ export const Slide1: React.FC = () => {
             <ul>
               <li
                 className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
+                style={{ fontSize: '1.2rem' }}
               >
                 Secure
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
+                style={{ fontSize: '1.2rem' }}
               >
                 Transparency
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
+                style={{ fontSize: '1.2rem' }}
               >
                 Decentralized
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '20px' }}
+                style={{ fontSize: '1.2rem' }}
               >
                 Prevents data fraud
               </li>
