@@ -10,6 +10,7 @@ export default function Document() {
           name="description"
           content="This is slide for Blocked In Application"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <body>
         <Main />
