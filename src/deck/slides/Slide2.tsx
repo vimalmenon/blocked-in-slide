@@ -8,7 +8,7 @@ export const Slide2: React.FC = () => {
         <span className="mb-10">
           <BlockedIn />
         </span>
-        <div className="mb-2 text-yellow-100" style={{ fontSize: '25px' }}>
+        <div className="mb-2 text-yellow-100" style={{ fontSize: '1.8rem' }}>
           Problems application is trying to solve
         </div>
         <div

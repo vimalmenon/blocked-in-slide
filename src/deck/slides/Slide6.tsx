@@ -11,7 +11,7 @@ export const Slide6: React.FC = () => {
         {/* <div className="text-base subpixel-antialiased">Demo</div> */}
         <div
           className="mb-2 text-yellow-100 subpixel-antialiased"
-          style={{ fontSize: '25px' }}
+          style={{ fontSize: '1.8rem' }}
         >
           Contact US
         </div>
