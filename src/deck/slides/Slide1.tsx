@@ -8,7 +8,7 @@ export const Slide1: React.FC = () => {
         <span className="mb-10">
           <BlockedIn />
         </span>
-        <div className="mb-2" style={{ fontSize: '30px' }}>
+        <div className="mb-2 text-yellow-100" style={{ fontSize: '30px' }}>
           Why Blockchain?
         </div>
         <div
