@@ -8,9 +8,14 @@ export const Slide6: React.FC = () => {
         <span className="mb-10">
           <BlockedIn />
         </span>
-        <div className="text-base subpixel-antialiased">Demo</div>
-        <div className="text-base subpixel-antialiased">Contact US</div>
-        <p className="text-base subpixel-antialiased">
+        {/* <div className="text-base subpixel-antialiased">Demo</div> */}
+        <div
+          className="mb-2 text-yellow-100 subpixel-antialiased"
+          style={{ fontSize: '25px' }}
+        >
+          Contact US
+        </div>
+        <div className="text-base subpixel-antialiased">
           <a
             href="https://www.linkedin.com/in/vimal-menon-72ab931a/"
             target="_blank"
@@ -18,8 +23,8 @@ export const Slide6: React.FC = () => {
           >
             LinkedIn
           </a>
-        </p>
-        <p className="text-base subpixel-antialiased">YouTube</p>
+        </div>
+        <div className="text-base subpixel-antialiased">YouTube</div>
       </div>
     </section>
   );
