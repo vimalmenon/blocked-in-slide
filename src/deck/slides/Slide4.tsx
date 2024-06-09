@@ -11,19 +11,75 @@ export const Slide4: React.FC = () => {
         <div className="mb-2 text-yellow-100" style={{ fontSize: '25px' }}>
           Future Scope
         </div>
-        <div>
-          <p className="fragment fade-up text-sm">
-            Robust verification of academic history
-          </p>
-          <p className="fragment fade-up text-sm">Appreciate employee</p>
-          <p className="fragment fade-up text-sm">Add skills for employee</p>
-          <p className="fragment fade-up text-sm">Token&apos;s</p>
-          <p className="fragment fade-up text-sm">NFT</p>
-          <p className="fragment fade-up text-sm">
-            Integration with other applications
-          </p>
-          <p className="fragment fade-up text-sm">Track Employees status</p>
-          <p className="fragment fade-up text-sm">IPFS</p>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <div
+            style={{
+              display: 'flex',
+              width: '700px',
+              flexDirection: 'column',
+              alignItems: 'start',
+              gap: 20,
+            }}
+          >
+            <ul>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Verify of academic history
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Employee ppreciation
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Add skills for employee
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Token&apos;s
+              </li>
+
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Integration with other applications
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                Track Employees status
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                NFT
+              </li>
+              <li
+                className="fragment fade-up text-sm m-5"
+                style={{ fontSize: '20px' }}
+              >
+                IPFS
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
