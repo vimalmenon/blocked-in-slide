@@ -1,6 +1,25 @@
 import React from 'react';
 import { BlockedIn } from '../../common';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faShieldHalved,
+  faMagnifyingGlass,
+  faNetworkWired,
+  faUserShield,
+} from '@fortawesome/free-solid-svg-icons';
+
+const listItemStyle = {
+  fontSize: '1.2rem',
+  justifyContent: 'space-between',
+  display: 'flex',
+  alignItems: 'center',
+  margin: '30px 0',
+};
+
+const iconStyle = {
+  fontSize: '50px',
+};
 export const Slide1: React.FC = () => {
   return (
     <section>
@@ -22,36 +41,40 @@ export const Slide1: React.FC = () => {
           <div
             style={{
               display: 'flex',
-              width: '500px',
+              width: '600px',
               flexDirection: 'column',
               alignItems: 'start',
               gap: 20,
             }}
           >
-            <ul>
+            <ul style={{ width: '100%' }}>
               <li
                 className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '1.2rem' }}
+                style={listItemStyle}
               >
-                Secure
+                <FontAwesomeIcon icon={faShieldHalved} style={iconStyle} />
+                &nbsp; Secure
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '1.2rem' }}
+                style={listItemStyle}
               >
-                Transparency
+                <FontAwesomeIcon icon={faMagnifyingGlass} style={iconStyle} />
+                &nbsp; Transparency
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '1.2rem' }}
+                style={listItemStyle}
               >
-                Decentralized
+                <FontAwesomeIcon icon={faNetworkWired} style={iconStyle} />
+                &nbsp; Decentralized
               </li>
               <li
                 className="fragment fade-up text-sm m-5"
-                style={{ fontSize: '1.2rem' }}
+                style={listItemStyle}
               >
-                Prevents data fraud
+                <FontAwesomeIcon icon={faUserShield} style={iconStyle} />
+                &nbsp; Prevents data fraud
               </li>
             </ul>
           </div>
