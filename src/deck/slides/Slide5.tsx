@@ -9,7 +9,7 @@ export const Slide5: React.FC = () => {
           <BlockedIn />
         </span>
         <div className="mb-2 text-yellow-100" style={{ fontSize: '1.8rem' }}>
-          What help I Need?
+          What help I need?
         </div>
         <div
           style={{
